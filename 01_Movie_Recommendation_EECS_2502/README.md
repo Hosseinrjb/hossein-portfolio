@@ -6,28 +6,28 @@
 
 ## Overview and problem
 
-How can historical ratings help users discover movies they have not seen? This academic team project explores an item-based nearest-neighbor recommender, from data preparation to rating prediction and example recommendation lists.
+This team project used historical MovieLens ratings to predict ratings for unseen movies and generate recommendations. We used item-based k-nearest neighbours (KNN) to find movies with similar rating patterns.
 
-**Availability:** A documented case study with an original academic notebook as supporting material. No dataset, packaged environment, deployed service, or reproducibility guarantee is provided.
+Available materials: A report and the original academic notebook with saved outputs. The dataset and environment specifications are not included, so the repository is not a complete reproducible package.
 
 ## Dataset and tools
 
-The report uses **MovieLens 1M**: 1,000,209 ratings from 6,040 users, 3,883 movie records, and 3,706 movies with ratings. Ratings use a 1–5 scale. The dataset is not bundled.
+The report uses MovieLens 1M: 1,000,209 ratings from 6,040 users, 3,883 movie records, and 3,706 movies with ratings. Ratings use a 1 to 5 scale. The dataset is not bundled.
 
 Source: [GroupLens MovieLens 1M](https://grouplens.org/datasets/movielens/1m/), cited in the report. Dataset use remains subject to its source terms.
 
-**Tools:** Python, pandas, NumPy, SciPy sparse matrices, scikit-learn, Matplotlib, and Seaborn.
+Tools: Python, pandas, NumPy, SciPy sparse matrices, scikit-learn, Matplotlib, and Seaborn.
 
 ## Methodology
 
 1. Inspect ratings, users, and movies; check duplicates, identifiers, rating ranges, and timestamps.
 2. Explore rating distributions, popularity, user activity, and demographic patterns.
-3. Represent movies as sparse vectors of user ratings and find neighbors using cosine similarity.
-4. Predict ratings from a user's ratings of neighboring movies, with user/global mean fallbacks.
+3. Represent movies as sparse vectors of user ratings and find neighbours using cosine similarity.
+4. Predict ratings from a user's ratings of neighbouring movies, with user/global mean fallbacks.
 5. Compare K ∈ {15, 20, 25, 30, 35, 40, 50} using five-fold cross-validation.
 6. Examine an additional 80/20 split, then fit the selected configuration on all ratings for illustrative recommendations.
 
-**Scope correction:** The completed study uses item-based KNN. User-based KNN, matrix factorization, and Spark are not completed comparisons; the report discusses alternatives and an earlier plan to use a larger dataset.
+The completed study uses item-based KNN. The report discusses user-based KNN and matrix factorization as possible extensions. Spark was part of an earlier plan, not the final approach.
 
 ## Results and evaluation
 
@@ -38,7 +38,7 @@ Recorded notebook outputs provide the following values; the report rounds them t
 | Five-fold CV mean | 50 | 0.9406 | 0.7264 |
 | Additional 80/20 split | 50 | 0.9425 | 0.7284 |
 
-K=50 was best **among the tested values**. These are historical results, not independently rerun measurements. The extra split follows model selection on the same underlying dataset and is not a fully independent confirmation.
+K=50 was best among the tested values. These are historical results, not independently rerun measurements. The extra split follows model selection on the same underlying dataset and is not a fully independent confirmation.
 
 ## Key insights
 
@@ -50,14 +50,14 @@ K=50 was best **among the tested values**. These are historical results, not ind
 ## Limitations
 
 - Sparse histories and cold-start users/items remain difficult.
-- Brute-force neighbor search limits scalability.
+- Brute-force neighbour search limits scalability.
 - Popularity bias and demographic imbalance constrain broader conclusions.
 - No temporal holdout, online study, or ranking metrics such as NDCG/recall@K are reported.
 - Genre analysis appears in EDA; a validated genre/popularity filtering improvement is not established by the completed report.
 
 ## My contribution and attribution
 
-The report's **Team Contributions** section credits Hossein Rajabi with cleaning and preprocessing, EDA, identifying the optimal model, and the initial report draft. Shami-uz Zaman implemented item-based KNN and evaluation. Both contributed to the presentation and report.
+The report's Team Contributions section records my work on cleaning, preprocessing, exploratory analysis, model selection, and the initial report draft. Shami-uz Zaman implemented item-based KNN and evaluation. We both contributed to the presentation and report.
 
 ## Available materials
 
@@ -66,4 +66,4 @@ The report's **Team Contributions** section credits Hossein Rajabi with cleaning
 | [Final report (PDF)](EECS_2502_Final_Report.pdf) | Methodology, evaluation, limitations, team contributions, and figures |
 | [Original academic notebook](EECS_2502_Final_Code.ipynb) | Existing source and saved outputs; preserved without modification |
 
-**Evidence guide:** Report §§4–6 cover methods and results, §7 limitations, and §9 contributions. Notebook Parts 6–8 contain the more precise saved metrics. Original materials retain their existing authorship and rights.
+Source locations: Report sections 4 to 6 cover methods and results, section 7 covers limitations, and section 9 records contributions. Notebook Parts 6 to 8 contain the more precise saved metrics.

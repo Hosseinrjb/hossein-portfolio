@@ -2,19 +2,19 @@
 
 **Analytics Engineer Co-op at RBC · Data Science undergraduate at York University**
 
-I work with data pipelines, machine learning, and analytics, with interests in analytics engineering, data engineering, and applied AI. I am completing a BSc in Data Science (Business Stream) at York University, graduating in April 2027 (expected).
+I am studying Data Science (Business Stream) at York University and expect to graduate in April 2027. At RBC, I work on data pipelines and analytics, with interests in machine learning, data engineering, and applied AI.
 
 [Portfolio](https://github.com/Hosseinrjb/hossein-portfolio) · [LinkedIn](https://www.linkedin.com/in/hossein-rajabi-abb541243/) · [Email](mailto:hlotusr@gmail.com)
 
 ## Current work
 
-At RBC, my résumé highlights include:
+In my current role at RBC, I have worked on:
 
-- PySpark and SQL pipelines integrating **5 sources** into a **55-column analytical dataset**.
-- A Python NLP pipeline processing **4,000+ client meeting notes**.
-- Synthetic data generation for Databricks migration testing and S3-backed logging for **10+ Airflow DAGs**.
+- PySpark and SQL pipelines integrating 5 sources into a 55-column analytical dataset.
+- A Python NLP pipeline processing 4,000+ client meeting notes.
+- Synthetic data generation for Databricks migration testing and S3-backed logging for 10+ Airflow DAGs.
 
-Previously, as an RBC Data Analyst Co-op, I reconciled datasets with 70+ columns, built a Power BI verification dashboard, and supported 100+ users after a system migration. Employer implementation artifacts and data are not included in my portfolio.
+Previously, as an RBC Data Analyst Co-op, I reconciled datasets with 70+ columns, built a Power BI verification dashboard, and supported 100+ users after a system migration. Employer code and data are not included in my portfolio.
 
 ## Core skills
 
@@ -27,24 +27,24 @@ Previously, as an RBC Data Analyst Co-op, I reconciled datasets with 70+ columns
 
 ## Selected case studies
 
-- **[Movie Recommendation](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/01_Movie_Recommendation_EECS_2502)** — MovieLens 1M, item-based KNN, and five-fold evaluation. My documented contribution covers preparation, EDA, model selection, and report writing.
-- **[Healthcare Analytics](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/02_Healthcare_Analytics_MATH_2130)** — A team comparison of LOS regression models, with explicit discussion of feature timing, leakage, and small-sample limitations.
-- **[Image Classification](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/03_Image_Classification_MATH_3333)** — EfficientNetB0 versus RGB-median logistic regression for outdoor-day scene classification; reported accuracy 84.7% versus 74.5%.
-- **[Captive Insurance Feasibility](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/04_Captive_Insurance_Feasibility_Study)** — A team research study combining public benchmarks and preliminary financial scenarios.
+- [Movie Recommendation](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/01_Movie_Recommendation_EECS_2502): MovieLens 1M, item-based KNN, and five-fold evaluation. I contributed data preparation, exploratory analysis, model selection, and report writing.
+- [Healthcare Analytics](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/02_Healthcare_Analytics_MATH_2130): A team comparison of ICU length-of-stay regression models, with a review of feature timing, leakage, and small-sample limitations.
+- [Image Classification](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/03_Image_Classification_MATH_3333): EfficientNetB0 versus RGB-median logistic regression for outdoor-day scene classification; reported accuracy 84.7% versus 74.5%.
+- [Captive Insurance Feasibility](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/04_Captive_Insurance_Feasibility_Study): A team research study combining public benchmarks and preliminary financial scenarios.
 
-Projects are presented as documented case studies. Available original artifacts vary; these are not packaged, reproducible public codebases. Each case study states its evidence and limitations.
+The portfolio focuses on case studies and reports. Some projects include original notebooks or code screenshots, but they are not complete, reproducible packages. Each case study explains the available materials and limitations.
 
 ## Education and recognition
 
-**York University — BSc, Data Science (Business Stream)** · Expected April 2027
+York University: BSc, Data Science (Business Stream) · Expected April 2027
 
-GPA: **8.57/9.00** · Dean's Honour Roll
+GPA: 8.57/9.00 · Dean's Honour Roll
 
 RBC Elevate Scholarship · TELUS Student Bursary · York University OSOTF Science Award
 
-**Leadership:** VP Operations, Business & Data Analytics Association · Global Leader, York Science
+Leadership: VP Operations, Business & Data Analytics Association · Global Leader, York Science
 
-**Seneca College:** Advanced Diploma, Business Administration – Financial Planning (Honours), 2023
+Seneca College: Advanced Diploma, Business Administration, Financial Planning (Honours), 2023
 
 ## Connect
 

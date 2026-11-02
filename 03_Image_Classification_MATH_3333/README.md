@@ -6,17 +6,17 @@
 
 ## Overview and problem
 
-Can a pretrained convolutional network distinguish outdoor-day images from other scenes more effectively than a simple color-based baseline? This individual academic study compares logistic regression with EfficientNetB0.
+In this individual project, I compared logistic regression with EfficientNetB0 to classify outdoor-day images versus other scenes. The baseline uses three colour features, while EfficientNetB0 learns image features through transfer learning.
 
-**Availability:** Documentation with code and output screenshots embedded in the PDF. No standalone notebook, dataset, trained model, or executable environment is supplied. Reported measurements have not been independently reproduced.
+Available materials: A report with embedded code and output screenshots. No standalone notebook, dataset, trained model, or executable environment is supplied. Reported measurements have not been independently reproduced.
 
 ## Dataset and tools
 
-The report identifies an **800-image subset of the Columbia Photographic Images and Photorealistic Computer Graphics Dataset**, with approximately 405 outdoor-day images and 395 other images. The task is binary scene classification, **not face classification**.
+The report identifies an 800-image subset of the Columbia Photographic Images and Photorealistic Computer Graphics Dataset, with approximately 405 outdoor-day images and 395 other images. The task is binary scene classification, not face classification.
 
-The report cites Ng, Chang, Hsu, and Pepeljugoski (2005), ADVENT Technical Report #205-2004-5. The exact subset manifest and labeling provenance are not supplied and need verification before reproduction.
+The report cites Ng, Chang, Hsu, and Pepeljugoski (2005), ADVENT Technical Report #205-2004-5. The exact list of images and how their labels were assigned are not documented well enough to reproduce the subset.
 
-**Tools supported by the report:** Python, TensorFlow/Keras, NumPy, and statsmodels (`GLM`, binomial family). The logistic baseline should not be described as a scikit-learn implementation based on this report.
+Tools supported by the report: Python, TensorFlow/Keras, NumPy, and statsmodels (`GLM`, binomial family). The report uses statsmodels for the logistic baseline.
 
 ## Methodology
 
@@ -35,11 +35,11 @@ The report cites Ng, Chang, Hsu, and Pepeljugoski (2005), ADVENT Technical Repor
 | Logistic regression, RGB medians | 71.8% | 74.5% | 0.866 | 0.386 | 0.955 |
 | EfficientNetB0 transfer learning | 94.6% | 84.7% | 0.927 | 0.862 | 0.838 |
 
-The report labels these as test results but also calls the evaluation set “validation (test).” These are therefore presented as reported evaluation metrics, without asserting a separate untouched test set.
+The report labels these as test results but also calls the evaluation set “validation (test).” A separate, untouched test set is not clearly documented. These values are reported results, not independently reproduced measurements.
 
 ## Key insights
 
-- EfficientNetB0 improves reported accuracy by **10.2 percentage points** over the three-feature baseline on the documented evaluation.
+- EfficientNetB0 improves reported accuracy by 10.2 percentage points over the three-feature baseline on the documented evaluation.
 - The baseline has high specificity but low sensitivity; accuracy alone hides that imbalance in error types.
 - EfficientNetB0's training/evaluation gap suggests overfitting despite augmentation and dropout.
 
@@ -54,8 +54,8 @@ The report labels these as test results but also calls the evaluation set “val
 
 ## Attribution and available material
 
-The report names **Hossein Rajabi** as author.
+I am the sole author listed on the report.
 
-[Final report and code/output screenshots (PDF)](MATH_3333_Final_Report_and_Code.pdf) contains dataset description (§3), methodology (§4), results (§5), conclusions (§6), references, and a screenshot appendix. PDF pages 3–8 provide searchable narrative and results; the appendix's raster screenshots are less accessible and are not a substitute for executable source.
+[Final report and code/output screenshots (PDF)](MATH_3333_Final_Report_and_Code.pdf) contains dataset description (section 3), methodology (section 4), results (section 5), conclusions (section 6), references, and a screenshot appendix. PDF pages 3 to 8 contain searchable text and results. The appendix contains code screenshots rather than executable source, which also limits accessibility.
 
-The original PDF is preserved. No repository-wide license or permission to redistribute its source images is added.
+The original PDF is preserved. No licence has been added for the report or source images.
