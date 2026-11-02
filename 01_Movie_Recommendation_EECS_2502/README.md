@@ -8,13 +8,13 @@
 
 This team project used historical MovieLens ratings to predict ratings for unseen movies and generate recommendations. We used item-based k-nearest neighbours (KNN) to find movies with similar rating patterns.
 
-Available materials: A report and the original academic notebook with saved outputs. The dataset and environment specifications are not included, so the repository is not a complete reproducible package.
+Available materials: A report and an existing academic notebook. The notebook is not cleared for public sharing because its saved outputs reproduce source-data rows. Environment specifications are not included, and the project has not been independently reproduced.
 
 ## Dataset and tools
 
-The report uses MovieLens 1M: 1,000,209 ratings from 6,040 users, 3,883 movie records, and 3,706 movies with ratings. Ratings use a 1 to 5 scale. The dataset is not bundled.
+The report uses MovieLens 1M: 1,000,209 ratings from 6,040 users, 3,883 movie records, and 3,706 movies with ratings. Ratings use a 1 to 5 scale. The original dataset files are absent, but the notebook contains saved excerpts of ratings and user demographics, including ZIP codes.
 
-Source: [GroupLens MovieLens 1M](https://grouplens.org/datasets/movielens/1m/), cited in the report. Dataset use remains subject to its source terms.
+Source: [GroupLens MovieLens 1M](https://grouplens.org/datasets/movielens/1m/), cited in the report. The [official dataset licence](https://files.grouplens.org/datasets/movielens/ml-1m-README.txt) requires separate permission for redistribution. The notebook must not be published as-is without that permission or an approved version that excludes source-data excerpts.
 
 Tools: Python, pandas, NumPy, SciPy sparse matrices, scikit-learn, Matplotlib, and Seaborn.
 
@@ -64,6 +64,6 @@ The report's Team Contributions section records my work on cleaning, preprocessi
 | Material | Contents |
 | --- | --- |
 | [Final report (PDF)](EECS_2502_Final_Report.pdf) | Methodology, evaluation, limitations, team contributions, and figures |
-| [Original academic notebook](EECS_2502_Final_Code.ipynb) | Existing source and saved outputs; preserved without modification |
+| `EECS_2502_Final_Code.ipynb` | Publication hold: saved source-data rows in cells 5 and 6 (1-based); original file unchanged |
 
-Source locations: Report sections 4 to 6 cover methods and results, section 7 covers limitations, and section 9 records contributions. Notebook Parts 6 to 8 contain the more precise saved metrics.
+Source locations: Report sections 4 to 6 cover methods and results, section 7 covers limitations, and section 9 records contributions. Notebook Parts 6 to 8 contain the more precise saved metrics. Coauthor permission to share the report and code still needs confirmation. Removing the notebook link does not make the file private.

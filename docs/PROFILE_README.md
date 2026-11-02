@@ -29,10 +29,10 @@ Previously, as an RBC Data Analyst Co-op, I reconciled datasets with 70+ columns
 
 - [Movie Recommendation](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/01_Movie_Recommendation_EECS_2502): MovieLens 1M, item-based KNN, and five-fold evaluation. I contributed data preparation, exploratory analysis, model selection, and report writing.
 - [Healthcare Analytics](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/02_Healthcare_Analytics_MATH_2130): A team comparison of ICU length-of-stay regression models, with a review of feature timing, leakage, and small-sample limitations.
-- [Image Classification](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/03_Image_Classification_MATH_3333): EfficientNetB0 versus RGB-median logistic regression for outdoor-day scene classification; reported accuracy 84.7% versus 74.5%.
+- [Image Classification](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/03_Image_Classification_MATH_3333): EfficientNetB0 versus RGB-median logistic regression for outdoor-day scene classification; reported validation accuracy 84.7% versus 74.5%, with the evaluation set reused for training decisions.
 - [Captive Insurance Feasibility](https://github.com/Hosseinrjb/hossein-portfolio/tree/main/04_Captive_Insurance_Feasibility_Study): A team research study combining public benchmarks and preliminary financial scenarios.
 
-The portfolio focuses on case studies and reports. Some projects include original notebooks or code screenshots, but they are not complete, reproducible packages. Each case study explains the available materials and limitations.
+The portfolio focuses on case studies and reports. Some projects include original notebooks or code screenshots, but they are not complete, reproducible packages. Each case study explains the available materials and limitations. Original notebooks and some reports are on hold for source-data, permission, or factual review; the portfolio is not yet cleared for publication.
 
 ## Education and recognition
 

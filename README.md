@@ -21,9 +21,9 @@ Results below are reported in the original materials and have not been independe
 | Case study | Focus | Reported outcome | Explore |
 | --- | --- | --- | --- |
 | Movie Recommendation | Item-based collaborative filtering | K=50; five-fold CV RMSE 0.9406, MAE 0.7264 | [Case study](01_Movie_Recommendation_EECS_2502/) · [Report (PDF)](01_Movie_Recommendation_EECS_2502/EECS_2502_Final_Report.pdf) |
-| Healthcare Analytics | ICU length-of-stay modelling | Random Forest MAE ≈2.21 days; exploratory result with leakage concerns | [Case study](02_Healthcare_Analytics_MATH_2130/) · [Report (PDF)](02_Healthcare_Analytics_MATH_2130/MATH_2130_Final_Report.pdf) |
-| Image Classification | Transfer learning versus a simple baseline | EfficientNetB0: 84.7% accuracy, 0.927 AUC | [Case study](03_Image_Classification_MATH_3333/) · [Report (PDF)](03_Image_Classification_MATH_3333/MATH_3333_Final_Report_and_Code.pdf) |
-| Captive Insurance Feasibility | Research synthesis and financial scenarios | Preliminary cost estimates and a recommendation for detailed feasibility analysis | [Case study](04_Captive_Insurance_Feasibility_Study/) · [White paper (PDF)](04_Captive_Insurance_Feasibility_Study/White_Paper_CIBC.pdf) |
+| Healthcare Analytics | ICU length-of-stay modelling | Random Forest MAE ≈2.21 days; exploratory result with leakage concerns | [Case study](02_Healthcare_Analytics_MATH_2130/) |
+| Image Classification | Transfer learning versus a simple baseline | EfficientNetB0: 84.7% validation accuracy, 0.927 AUC | [Case study](03_Image_Classification_MATH_3333/) · [Report (PDF)](03_Image_Classification_MATH_3333/MATH_3333_Final_Report_and_Code.pdf) |
+| Captive Insurance Feasibility | Research synthesis and financial scenarios | Preliminary cost estimates and a recommendation for detailed feasibility analysis | [Case study](04_Captive_Insurance_Feasibility_Study/) |
 
 ### Movie Recommendation
 
@@ -49,7 +49,7 @@ Context: Five-person academic team; individual responsibilities are not specifie
 
 Objective: Classify outdoor-day images versus other scenes in an 800-image Columbia photographic/graphics subset.
 
-Approach: I compared logistic regression on three RGB median features with ImageNet-pretrained EfficientNetB0. The report records accuracy of 84.7% and AUC of 0.927 for EfficientNetB0, versus 74.5% and 0.866 for the baseline. The sample is small, and the report does not clearly distinguish validation from final testing.
+Approach: I compared logistic regression on three RGB median features with ImageNet-pretrained EfficientNetB0. The report records accuracy of 84.7% and AUC of 0.927 for EfficientNetB0, versus 74.5% and 0.866 for the baseline. The sample is small. Code screenshots show that the evaluation set guided early stopping and learning-rate changes during both training stages, so these are not independent final test results.
 
 Tools: Python, TensorFlow/Keras, statsmodels.
 
@@ -125,4 +125,6 @@ Interested in analytics engineering, data science, machine learning engineering,
 
 ## Materials and attribution
 
-The original reports and supporting files are preserved. Project results were checked against these materials but were not independently reproduced. Each case study explains team contributions and evaluation limitations. No repository-wide licence has been added; source datasets and third-party materials retain their own terms.
+The original reports and supporting files are preserved. Project results were checked against these materials but were not independently reproduced. Each case study explains team contributions and evaluation limitations.
+
+The movie and healthcare notebooks contain source-data excerpts and are not cleared for public sharing. The healthcare report and insurance PDFs are also on hold for review. Removing direct links does not restrict access to files already in the repository. See the [publication review](docs/PORTFOLIO_REVIEW.md) for the remaining decisions. No repository-wide licence has been added; source datasets and third-party materials retain their own terms.

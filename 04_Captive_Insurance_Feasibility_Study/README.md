@@ -2,13 +2,15 @@
 
 **Research synthesis and financial scenarios · Risk & Insurance Studies Centre / HAIIvVE 9 · January to May 2025**
 
-[Portfolio](../README.md) · [White paper (PDF, 24 pages)](White_Paper_CIBC.pdf) · [Infographic (PDF, 3 pages)](HAIIVVE9_Infographic_Team7.pdf)
+[Portfolio](../README.md)
 
 ## Overview and problem
 
 This team study examines whether a Cayman Islands captive-insurance subsidiary could help CIBC manage selected risks and long-term insurance costs. We reviewed industry research, estimated costs, and considered governance requirements before recommending a detailed feasibility study.
 
-Available materials: A white paper and infographic. No internal CIBC data, actuarial model, source dataset, or Excel workbook is supplied. This is a student research study, not evidence of an implemented CIBC captive or realized savings.
+Publication status: The original white paper and infographic are on hold. The paper has unresolved references; the infographic needs a review of its claims and permission to share identifiable headshots and third-party graphics. Removing links does not restrict access to files already in the repository.
+
+Existing materials: A 24-page white paper and a three-page infographic. No internal CIBC data, actuarial model, source dataset, or Excel workbook is supplied. This is a student research study, not evidence of an implemented CIBC captive or realized savings.
 
 ## Research sources and tools
 
@@ -47,7 +49,7 @@ The team recommended a detailed feasibility study, rather than treating these es
 
 - Reliance on public benchmarks limits organization-specific cost and savings estimates.
 - No workbook is included to verify calculations or sensitivity analyses.
-- Bibliography entries include explicit placeholders such as “Illustrative Source,” “article pages pending,” and “generic reference, check source if needed,” plus inconsistent citation metadata. These need source-by-source review before relying on the paper's conclusions.
+- The original bibliography contains incomplete and inconsistent references. These remain unresolved and are not reproduced as citations here. The paper needs a source-by-source correction before publication; changes to this README do not fix the original PDF.
 - Regulatory, tax, and capital statements are historical research claims from the paper and have not been validated as current guidance. The README makes no independent claim that a particular structure qualifies for regulatory capital relief.
 - The résumé reports 40+ sources and first place among seven teams. The supplied PDFs do not confirm the source count or competition ranking. Both claims remain unresolved and are excluded from the portfolio summaries.
 
@@ -57,7 +59,7 @@ The infographic lists Jason Qiu, Hossein Rajabi, and Mohammad Valizadehmoghadam 
 
 ## Available materials
 
-- [White paper (PDF)](White_Paper_CIBC.pdf): full study, cost tables in section 6.2, recommendation in section 10, and bibliography.
-- [Infographic (PDF)](HAIIVVE9_Infographic_Team7.pdf): summary of the objective, three-step approach, estimates, and team attribution, with extractable text.
+- `White_Paper_CIBC.pdf`: full study, cost tables in section 6.2, recommendation in section 10, and bibliography. Publication hold pending reference correction, review of financial and regulatory claims, and confirmation of sharing rights.
+- `HAIIVVE9_Infographic_Team7.pdf`: study summary and team attribution. Publication hold pending a review of savings and regulatory claims, headshot permissions, and rights to logos and other graphics.
 
-Both original files remain unchanged. Rights to third-party graphics and cited materials still need confirmation before adding a licence.
+Both original files remain unchanged. Their existing public availability does not establish permission to reuse headshots, institutional branding, or graphics, or imply CIBC endorsement. Confirm the project's public-sharing permission before using either PDF in a published portfolio.

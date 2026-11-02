@@ -2,19 +2,21 @@
 
 **Exploratory ICU length-of-stay modelling · MATH 2130 · Winter 2025**
 
-[Portfolio](../README.md) · [Report (PDF, 21 pages)](MATH_2130_Final_Report.pdf)
+[Portfolio](../README.md)
 
 ## Overview and problem
 
 This team study explores intensive care unit (ICU) length of stay (LOS) for patients with acute traumatic cervical spinal cord injuries. It compares Lasso, Random Forest, and XGBoost and examines how preprocessing, feature timing, and a small cohort affect interpretation.
 
-Available materials: A report and an existing notebook with source and saved outputs. The notebook is preserved, but its patient-level outputs need a sharing review. This is an exploratory study, not a validated clinical system.
+Publication status: The original notebook must not be shared publicly as-is. It contains restricted patient-level source and derived records in saved outputs. The report is also on hold for a figure-sharing and methodology review. Both files remain unchanged; this notice and removal of links do not restrict access to files already in GitHub.
+
+This is an exploratory study, not a validated clinical system. The original report is 21 pages, and its methods and results are summarised below with corrections based on the notebook.
 
 ## Dataset and tools
 
 The report identifies MIMIC-IV v2.2 and a cohort of 97 ICU stays selected using ICD-9 prefix `8060`. Saved notebook outputs identify 89 patients and 90 admissions, so stays should not be treated as 97 independent patients.
 
-Source: Johnson et al., [MIMIC-IV v2.2 on PhysioNet](https://physionet.org/content/mimiciv/2.2/), DOI: 10.13026/6mm1-ek67. Access is credentialed and subject to PhysioNet's data-use terms. The source dataset is not bundled with the repository.
+Source: Johnson et al., [MIMIC-IV v2.2 on PhysioNet](https://physionet.org/content/mimiciv/2.2/), DOI: 10.13026/6mm1-ek67. Access is credentialed and subject to PhysioNet's data-use terms. Full source tables are absent, but saved notebook outputs contain patient-level excerpts. De-identified source IDs and shifted dates are still restricted data; their presence does not make the records safe to redistribute.
 
 Tools: Python, pandas, NumPy, Dask, SciPy, scikit-learn, XGBoost, Matplotlib, and Seaborn.
 
@@ -54,13 +56,13 @@ Random Forest has the lowest reported errors. Test errors are reported in days; 
 - Sample and setting: Only 97 stays from a single hospital system; no external validation or clinical deployment is established.
 - Data accessibility: The original notebook contains row-level saved outputs from MIMIC-IV. These outputs need review against PhysioNet's sharing terms before further publication. They are not reproduced in this README.
 
-The models have not been rerun. Early prediction performance would need an evaluation that excludes later outcomes, restricts feature timestamps, and keeps each patient in a single training or evaluation group.
+The models have not been rerun. These findings establish that the saved evaluation includes information unavailable at the intended prediction time; they do not establish how much each issue affected the reported error. Early prediction performance would need an evaluation that excludes later outcomes, restricts feature timestamps, and keeps each patient in a single training or evaluation group.
 
 ## Attribution and materials
 
 The report lists Hossein Rajabi, Shami-uz Zaman, Eemeli Tepponen, Samantha Ly, and Kathleen Bajio. Individual responsibilities are not specified, so model work is attributed to the team.
 
-- [Final report (PDF)](MATH_2130_Final_Report.pdf): cohort and features in section 2, evaluation in sections 4 and 5, limitations in section 6, and appendix figures.
-- Original notebook: `MATH_2130_Final_Code.ipynb`. Steps 6, 16, and 18 to 20 support the feature-timing, retained-feature, and metric observations above. Its existing patient-level outputs need a sharing review before it is promoted as a public resource.
+- `MATH_2130_Final_Report.pdf`: cohort and features in section 2, evaluation in sections 4 and 5, and limitations in section 6. Its early-window description conflicts with whole-stay counts in the notebook. Appendix plots include individual observations and small groups, which need a disclosure review before sharing.
+- `MATH_2130_Final_Code.ipynb`: raw or derived patient rows appear in saved outputs in cells 6, 18, and 44 (1-based notebook cell positions). Cell 14 counts whole-stay events; cell 44 constructs the feature matrix; cell 47 splits by stay. Steps 18 to 20 contain the reported evaluation. No patient values are reproduced here.
 
-PhysioNet's source page states that derived datasets should be treated as sensitive and shared under the source agreement. The existing notebook's presence here does not establish permission to redistribute its outputs.
+[PhysioNet's MIMIC-IV guidance](https://physionet.org/content/mimiciv/2.2/) treats derived datasets as sensitive. Its [credentialed data licence](https://physionet.org/about/licenses/physionet-credentialed-health-data-license-150/) prohibits sharing restricted-data access with others. Preserve the original privately and decide how to remove restricted outputs from the public repository and its history. No files or history have been removed in this review.
