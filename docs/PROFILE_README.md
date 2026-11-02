@@ -1,12 +1,10 @@
 # Hossein Rajabi
 
-Analytics Engineer Co-op at RBC and Data Science undergraduate at York University, graduating in April 2027 (expected). I work with Python, SQL, PySpark, and Databricks, with interests in analytics engineering, machine learning, and applied AI.
+Analytics Engineer Co-op at RBC and Data Science undergraduate at York University. I work with Python, SQL, PySpark, and Databricks, with interests in analytics engineering, machine learning, and applied AI.
 
-[Portfolio](https://github.com/Hosseinrjb/hossein-portfolio) · [LinkedIn](https://www.linkedin.com/in/hossein-rajabi-abb541243/) · [Email](mailto:hlotusr@gmail.com)
+[Portfolio](https://github.com/Hosseinrjb/hossein-portfolio) · [LinkedIn](https://www.linkedin.com/in/hossein-rajabi-abb541243/)
 
 ## Experience
-
-In my current role at RBC, I have:
 
 - Built PySpark and SQL pipelines integrating 5 sources into a 55-column analytical dataset.
 - Developed an NLP pipeline for 4,000+ client meeting notes.
@@ -32,7 +30,7 @@ These are documented case studies, not complete reproducible packages. Each proj
 
 ## Education and recognition
 
-York University: BSc, Data Science (Business Stream), expected April 2027
+**York University:** BSc, Data Science (Business Stream), expected April 2027
 
 GPA: 8.57/9.00 · Dean's Honour Roll
 
@@ -40,4 +38,4 @@ RBC Elevate Scholarship · TELUS Student Bursary · York University OSOTF Scienc
 
 Leadership: VP Operations, Business & Data Analytics Association · Global Leader, York Science
 
-Seneca College: Advanced Diploma, Business Administration, Financial Planning (Honours), 2023
+**Seneca College:** Advanced Diploma, Business Administration, Financial Planning (Honours), 2023

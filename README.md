@@ -2,11 +2,9 @@
 
 I'm an Analytics Engineer Co-op at RBC and a Data Science undergraduate at York University. I work with Python, SQL, PySpark, and Databricks on data pipelines, analytics, and migration testing. My interests include machine learning, data engineering, and applied AI.
 
-[LinkedIn](https://www.linkedin.com/in/hossein-rajabi-abb541243/) · [GitHub](https://github.com/Hosseinrjb) · [Email](mailto:hlotusr@gmail.com)
-
 ## Featured projects
 
-Four academic and research case studies. Results are reported from the original materials and have not been independently reproduced. Each project explains its methods, contributions, available files, and limitations.
+Four academic and research case studies, with methods, attribution, and limitations in each project README. Results are reported from the original materials and have not been independently reproduced.
 
 | Project | Focus and reported result |
 | --- | --- |
@@ -50,17 +48,17 @@ Contributed research and financial scenario analysis to the captive-insurance st
 
 ## Education
 
-York University: BSc, Data Science (Business Stream)
+**York University:** BSc, Data Science (Business Stream)
 
 September 2023 to April 2027 (expected) · GPA: 8.57/9.00 · Dean's Honour Roll
 
 - Awards: RBC Elevate Scholarship · TELUS Student Bursary · York University OSOTF Science Award
 - Leadership: VP Operations, Business & Data Analytics Association · Global Leader, York Science
 
-Seneca College: Advanced Diploma, Business Administration, Financial Planning (Honours), 2023
+**Seneca College:** Advanced Diploma, Business Administration, Financial Planning (Honours), 2023
 
 ## Contact
 
-Interested in analytics engineering, data science, machine learning engineering, data engineering, and applied AI opportunities.
+Open to opportunities in analytics engineering, data science, data engineering, and applied AI.
 
-[LinkedIn](https://www.linkedin.com/in/hossein-rajabi-abb541243/) · [hlotusr@gmail.com](mailto:hlotusr@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/hossein-rajabi-abb541243/) · [GitHub](https://github.com/Hosseinrjb)

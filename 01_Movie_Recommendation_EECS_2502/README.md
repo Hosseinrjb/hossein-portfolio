@@ -27,7 +27,7 @@ Tools: Python, pandas, NumPy, SciPy sparse matrices, scikit-learn, Matplotlib, a
 5. Compare K ∈ {15, 20, 25, 30, 35, 40, 50} using five-fold cross-validation.
 6. Examine an additional 80/20 split, then fit the selected configuration on all ratings for illustrative recommendations.
 
-The completed study uses item-based KNN. The report discusses user-based KNN and matrix factorization as possible extensions. Spark was part of an earlier plan, not the final approach.
+The report discusses user-based KNN and matrix factorization as possible extensions. Spark was part of an earlier plan, not the final approach.
 
 ## Results and evaluation
 

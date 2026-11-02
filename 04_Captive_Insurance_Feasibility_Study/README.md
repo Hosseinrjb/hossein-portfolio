@@ -37,7 +37,7 @@ The following are study assumptions and estimates, not observed CIBC expenditure
 | Annual inflation | 2.5% | Assumption for subsequent operating-cost projections |
 | Economic/operating capital | USD 1 to 10 million or more | Broad range requiring risk-specific actuarial analysis |
 
-The team recommended a detailed feasibility study, rather than treating these estimates as sufficient for a launch decision. Savings described in the paper are prospective and have not been demonstrated using internal CIBC loss or premium data.
+Savings described in the paper are prospective and have not been demonstrated using internal CIBC loss or premium data.
 
 ## Key insights
 

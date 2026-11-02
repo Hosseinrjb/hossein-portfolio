@@ -8,7 +8,7 @@
 
 In this individual project, I compared logistic regression with EfficientNetB0 to classify outdoor-day images versus other scenes. The baseline uses three colour features, while EfficientNetB0 learns image features through transfer learning.
 
-Available materials: A report with embedded code and output screenshots. No standalone notebook, dataset, trained model, or executable environment is supplied. Reported measurements have not been independently reproduced.
+Available materials: A report with embedded code and output screenshots. No standalone notebook, dataset, trained model, or executable environment is supplied.
 
 ## Dataset and tools
 
@@ -16,7 +16,7 @@ The report identifies an 800-image subset of the Columbia Photographic Images an
 
 The report cites Ng, Chang, Hsu, and Pepeljugoski (2005), ADVENT Technical Report #205-2004-5. The [official Columbia dataset page](https://www.ee.columbia.edu/ln/dvmm/downloads/PIM_PRCG_dataset/) describes multiple component sets, including an 800-image Personal Columbia set. The project materials do not establish exactly which component and files were used. The scene labels and total should therefore be read as the report's description of its sample, not a verified inventory of the full dataset.
 
-Tools supported by the report: Python, TensorFlow/Keras, NumPy, and statsmodels (`GLM`, binomial family). The report uses statsmodels for the logistic baseline.
+Tools supported by the report: Python, TensorFlow/Keras, NumPy, and statsmodels (`GLM`, binomial family).
 
 ## Methodology
 
@@ -48,7 +48,7 @@ The report labels these as test results, but the appendix screenshots show the s
 - Only 800 images and a single random split; no external validation or confidence intervals are reported.
 - The evaluation set was used for early stopping and learning-rate decisions, so its scores cannot be treated as an untouched test benchmark.
 - Exact subset selection, preprocessing details, and screenshot code require review before reproduction.
-- Early stopping is confirmed in the appendix screenshots. Feature standardization is not established: the baseline uses RGB medians, and the image code calls EfficientNet preprocessing. No additional standardization claim is made.
+- The baseline uses RGB medians, and the image code calls EfficientNet preprocessing. Additional feature standardization is not documented.
 - The suggested 10 × 10 grid with SVM/Random Forest was not tested, so no measured advantage over that approach is claimed.
 - Findings apply to this binary scene task, not general image forensics or face recognition.
 
